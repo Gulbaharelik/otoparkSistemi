@@ -1,5 +1,7 @@
 # Otopark Sistemi
 Otopark Yönetim Sistemi
+
+
 Bu proje, otopark yönetimi için kapsamlı bir yazılım çözümü sunar. Araç yönetimi, kullanıcı rolleri, park türleri ve ödeme sistemleri gibi özellikleri içerir. Proje, Java dili ve MySQL veritabanı kullanılarak geliştirilmiştir.
 
 Özellikler Araç Yönetimi: Araç ekleme, düzenleme, silme ve ödeme işleme. Kullanıcı Rolleri: Admin ve sürücü rolleri. Tasarım Desenleri: Singleton, Factory, Abstract Factory, Observer, State, Builder ve Decorator desenleri. Veritabanı Yönetimi: MySQL kullanılarak CRUD işlemleri. Swing UI: Kullanıcı dostu arayüz tasarımı. Veritabanı Yapısı Tablolar Arac: plaka, marka, model, durum, giriş_tarihi, çıkış_tarihi, kullanıcı_id Kullanici: id, ad, soyad, email, şifre, yetki ParkTürü: tur_id, tür_adı (standart, park, VIP, motor) ParkYeri: park_id, yer_no, durum, arac_id Kurulum Proje Dosyalarını İndirin:
